@@ -1,1 +1,1 @@
-echo "test-multibranch-pipeline | branch main"
+echo "test-multibranch-pipeline | branch test"

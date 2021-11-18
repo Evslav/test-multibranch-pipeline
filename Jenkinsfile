@@ -1,4 +1,5 @@
-echo "test-multibranch-pipeline | branch main"
+
 node ("master"){
   sh 'env'
+  echo "test-multibranch-pipeline | branch ${BRANCH_NAME}"
 }

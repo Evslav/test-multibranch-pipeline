@@ -1,2 +1,4 @@
 echo "test-multibranch-pipeline | branch main"
-sh 'env'
+node ("master"){
+  sh 'env'
+}

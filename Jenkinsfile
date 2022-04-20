@@ -2,6 +2,7 @@ pipeline {
     agent none 
     stages {
         stage('Example Build') {
+            changeset "README.md"
             agent { label 'linux' } 
             steps {
                 echo 'Hello, Linux'

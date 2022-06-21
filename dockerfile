@@ -1,2 +1,2 @@
 FROM ubuntu:22.04
-echo test >> t.txt
+RUN echo test >> t.txt
